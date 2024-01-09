@@ -1,0 +1,177 @@
+/* Write your CSS here */
+.main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+}
+.card_container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  /* width: 60vw; */
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 85%;
+  max-width: 550px;
+}
+@media screen and (min-width: 768px) {
+  .card_container {
+    width: 78%;
+    max-width: 1120px;
+    margin: 5px 0px;
+  }
+}
+.header {
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+
+  /* align-items: center; */
+}
+.main_heading {
+  font: normal normal 600 28px 'Roboto';
+  color: #171f46;
+}
+.left_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .form_container {
+    width: 105%;
+    max-width: 320px;
+  }
+}
+
+.label1 {
+  color: #7e858e;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.input1 {
+  color: #131415;
+  font-family: 'Roboto';
+  font-size: 12px;
+  border: 1px solid #7e858e;
+  border-radius: 4px;
+  height: 40px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+  outline: none;
+}
+.addBtn {
+  height: 25px;
+  width: 60px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font: normal normal 13px 'Roboto';
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+/* .images1 {
+  height: 250px;
+  width: 380px;
+} */
+.images1 {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .images1 {
+    display: block;
+    width: 49%;
+  }
+}
+.horizontal_line {
+  border: none;
+  border-top: 2px solid #b5b7c4;
+}
+/* .appointment_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} */
+.appointment_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment_container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+}
+.appointment1 {
+  font: normal normal 600 25px 'Roboto';
+  color: #171f46;
+}
+.appointment1 {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment1 {
+    font-size: 24px;
+  }
+}
+.stared_button {
+  height: 30px;
+  width: 80px;
+  border-radius: 17px;
+  border: 1px solid #b5b7c4;
+  background-color: transparent;
+  font: normal normal 500 12px 'Roboto';
+  color: #b5b7c4;
+}
+.changeback {
+  color: #ffffff;
+  background-color: #9796f0;
+  border: 1px solid #ffffff;
+}
+/* .list_container {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  flex-wrap: wrap;
+  width: 70vw;
+  display: flex;
+} */
+
+.list_container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 0px;
+  margin-top: 24px;
+  list-style-type: none;
+}
+
+@media screen and (min-width: 768px) {
+  .list_container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    list-style-type: none;
+  }
+}
