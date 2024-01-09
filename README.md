@@ -1,7 +1,7 @@
 In this project, let's build an **Appointments App** by applying the concepts we have learned till now.
 
 ### https://appbyaman1o.ccbp.tech
-
+<a href="www.linkedin.com/in/amandhiman22" target="_blank">LinkedIn</a>
 ### Refer to the image below:
 
 <br/>
